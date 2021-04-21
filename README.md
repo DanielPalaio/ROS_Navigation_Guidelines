@@ -72,7 +72,7 @@ To built ROS packages, a **catkin workspace** in required. To create a workspace
 > In python.py:	
 >> from pkg_name.msg import message
 
-## Turtlebot3 + Gazebo environments + teleop control + Rviz point cloud
+## Turtlebot3 + Gazebo + Rviz + teleop control
 
 > source /opt/ros/noetic/setup.bash		
 > roscore		
