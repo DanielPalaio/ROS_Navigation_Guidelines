@@ -74,7 +74,7 @@ To built ROS packages, a **catkin workspace** in required. To create a workspace
 
 ## Turtlebot3 + Gazebo + Rviz + teleop control
 
-> source /opt/ros/noetic/setup.bash		
+> source /opt/ros/noetic/setup.bash  
 > roscore		
 
 > source /opt/ros/noetic/setup.bash  
