@@ -86,7 +86,7 @@ To built ROS packages, a **catkin workspace** in required. To create a workspace
 > source /opt/ros/noetic/setup.bash		 
 > cd ~/catkin_ws/src				 
 > source ~/catkin_ws/devel/setup.bash		
-> cd turtlebot3/turtlebot3_teleop/launch	 
+> cd turtlebot3/turtlebot3_teleop/launch	
 > roslaunch turtlebot3_teleop_key.launch	
 
 > source /opt/ros/noetic/setup.bash  
