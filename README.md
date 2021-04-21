@@ -62,6 +62,15 @@ To built ROS packages, a **catkin workspace** in required. To create a workspace
 
 > In CMakeLists.txt:  
 >> Add message_generation to find_package()  
+>> Uncomment add_message_files() and add message.msg  
+>> Uncomment generate_messages()  
+>> Add message_runtime to catkin_package() CATKIN DEPENDS  
+
+> cd ~/catkin_ws
+> catkin_make
+> . ~/catkin_ws/devel/setup.bash
+> In python.py:	
+>> from pkg_name.msg import message
 
 ## Turtlebot3 + Gazebo environments + teleop control + Rviz point cloud
 
@@ -87,11 +96,4 @@ To built ROS packages, a **catkin workspace** in required. To create a workspace
 > roslaunch turtlebot3_gazebo_rviz.launch  
 
 
-	Uncomment add_message_files() and add message.msg
-	Uncomment generate_messages()
-	Add message_runtime to catkin_package() CATKIN DEPENDS
-cd ~/catkin_ws
-catkin_make
-. ~/catkin_ws/devel/setup.bash
-In python.py:	
-	>> from pkg_name.msg import message
+
