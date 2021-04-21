@@ -50,7 +50,7 @@ To built ROS packages, a **catkin workspace** in required. To create a workspace
 > chmod +x python.py  
 > rosrun pkg_name python.py  
 
-## ROS MSG File  
+## ROS .msg File  
 
 > cd ~/catkin_ws/src/pkg_name  
 > mkdir msg  
