@@ -23,7 +23,7 @@ To install RViz, open the Ubuntu Terminal and follow the commands below:
 To install the turtlebot3 package, consult the following tutorial:   
 https://automaticaddison.com/how-to-launch-the-turtlebot3-simulation-with-ros/  
 
-## Turtlebot3 + Gazebo + Rviz + teleop control
+## Gazebo + Rviz + Turtlebot3 + teleop control
 
 > **Open new Terminal**   
 >> source /opt/ros/noetic/setup.bash  
